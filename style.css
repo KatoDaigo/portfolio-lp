@@ -692,28 +692,10 @@ p {
   font-size: 13px;
 }
 
-/* Service intro */
-.service-intro-section {
-  padding: 110px 0;
-  background: var(--deep);
-  color: var(--white);
-}
-
-.service-intro {
-  max-width: 880px;
-  text-align: center;
-}
-
-.service-intro p:not(.eyebrow) {
-  margin-top: 24px;
-  color: rgba(255, 255, 255, 0.72);
-  font-size: 13.5px;
-}
-
 /* Service */
 .service-section {
   padding: 120px 0;
-  background: var(--beige);
+  background: var(--cream);
 }
 
 .service-grid {
@@ -731,7 +713,7 @@ p {
 /* Story */
 .story-section {
   padding: 130px 0;
-  background: var(--cream);
+  background: var(--beige);
 }
 
 .timeline {
@@ -859,26 +841,6 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-}
-
-/* Final */
-.final-section {
-  padding: 120px 0;
-  background: var(--cream);
-}
-
-.final-card {
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 56px;
-  text-align: center;
-  background: var(--white);
-  border: 1px solid var(--line);
-  box-shadow: var(--shadow);
-}
-
-.final-card p:not(.eyebrow) {
-  margin-top: 24px;
 }
 
 /* Contact */
@@ -1113,13 +1075,11 @@ p {
 
   .promise-section,
   .about-section,
-  .service-intro-section,
   .service-section,
   .story-section,
   .philosophy-section,
   .recommend-section,
   .flow-section,
-  .final-section,
   .contact-section {
     padding: 82px 0;
   }
