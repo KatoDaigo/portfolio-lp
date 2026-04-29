@@ -236,18 +236,18 @@ h3 {
 }
 
 h2 {
-  font-size: clamp(32px, 4.4vw, 58px);
+  font-size: clamp(24px, 3.2vw, 46px);
   line-height: 1.28;
 }
 
 h3 {
-  font-size: 23px;
+  font-size: 19px;
   line-height: 1.45;
 }
 
 p {
   color: var(--gray);
-  font-size: 15.5px;
+  font-size: 13.5px;
   margin: 0;
 }
 
@@ -388,7 +388,7 @@ p {
 
 .hero h1 {
   color: var(--white);
-  font-size: clamp(50px, 8vw, 108px);
+  font-size: clamp(38px, 6vw, 84px);
   line-height: 1.05;
 }
 
@@ -400,7 +400,7 @@ p {
   max-width: 680px;
   margin-top: 30px;
   color: rgba(255, 255, 255, 0.86);
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .hero-actions {
@@ -469,7 +469,7 @@ p {
 .hero-panel blockquote {
   margin: 0;
   color: rgba(255, 255, 255, 0.88);
-  font-size: 18px;
+  font-size: 14.5px;
   line-height: 2;
 }
 
@@ -637,12 +637,12 @@ p {
   position: relative;
   z-index: 1;
   width: 100%;
-  min-height: 560px;
   border: 1px solid rgba(184, 149, 86, 0.34);
   box-shadow: var(--shadow);
 }
 
 .profile-placeholder {
+  min-height: 560px;
   display: grid;
   place-items: center;
   text-align: center;
@@ -666,7 +666,11 @@ p {
 
 .profile-image {
   display: block;
-  object-fit: cover;
+  height: 460px;
+  object-fit: contain;
+  object-position: center bottom;
+  background: var(--beige);
+  padding: 24px 16px 0;
 }
 
 .about-content p:not(.eyebrow) {
@@ -703,7 +707,7 @@ p {
 .service-intro p:not(.eyebrow) {
   margin-top: 24px;
   color: rgba(255, 255, 255, 0.72);
-  font-size: 16px;
+  font-size: 13.5px;
 }
 
 /* Service */
@@ -1071,11 +1075,11 @@ p {
   }
 
   .hero h1 {
-    font-size: clamp(44px, 14vw, 70px);
+    font-size: clamp(32px, 10vw, 54px);
   }
 
   .hero-lead {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .hero-actions {
@@ -1100,7 +1104,7 @@ p {
   }
 
   .hero-panel blockquote {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .container {
@@ -1125,11 +1129,11 @@ p {
   }
 
   h2 {
-    font-size: clamp(30px, 9vw, 42px);
+    font-size: clamp(22px, 7vw, 34px);
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .promise-grid,
@@ -1147,9 +1151,12 @@ p {
     padding: 26px;
   }
 
-  .profile-placeholder,
-  .profile-image {
+  .profile-placeholder {
     min-height: 390px;
+  }
+
+  .profile-image {
+    height: 360px;
   }
 
   .about-visual::after {
